@@ -1,0 +1,553 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Page Framework\n"
+"POT-Creation-Date: 2015-12-30 08:37+0900\n"
+"PO-Revision-Date: 2018-10-04 11:25+0200\n"
+"Last-Translator: Michael Uno <michael@michaeluno.jp>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: development\n"
+
+#: development/admin-page-framework.php:135
+#, php-format
+msgid "The method is called too early. Perform <code>%2$s</code> earlier."
+msgstr ""
+"Die Methode wurde zu früh aufgefunden. Bitte führ <code>%2$s</code> früher "
+"aus."
+
+#: development/factory/admin_page/AdminPageFramework_Controller_Form.php:354
+#, php-format
+msgid "The method is deprecated: %1$s. Use %2$s instead."
+msgstr "Diese Methode ist veraltet: %1$s. Bitte benutze stattdessen %2$s."
+
+#: development/factory/admin_page/_model/delegate/AdminPageFramework_Model__FormSubmission.php:264
+#, php-format
+msgid "The hook <code>%1$s</code>is deprecated. Use <code>%2$s</code> instead."
+msgstr ""
+"Der Cook <code>%1$s</code> ist veraltet. Bitte benutze stattdessen <code>"
+"%2$s</code>."
+
+#: development/factory/page_meta_box/AdminPageFramework_MetaBox_Page.php:31
+#, php-format
+msgid ""
+"The class <code>%1$s</code> is deprecated. Use <code>%2$s</code> instead."
+msgstr ""
+"Die Klasse <code>%1$s</code> ist veraltet. Bitte verwende stattdessen <code>"
+"%2$s</code>."
+
+#: development/factory/_abstract/AdminPageFramework_Factory_Router.php:568
+#, php-format
+msgid "The method is not defined: %1$s"
+msgstr "Diese Methode ist nicht definiert: %1$s"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:328
+msgid "The options have been updated."
+msgstr "Die Einstellungen wurden aktualisiert."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:329
+msgid "The options have been cleared."
+msgstr "Die Einstellungen wurden zurückgesetzt."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:330
+msgid "Export"
+msgstr "Exportieren"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:331
+msgid "Export Options"
+msgstr "Optionen exportieren"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:332
+msgid "Import"
+msgstr "Importieren"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:333
+msgid "Import Options"
+msgstr "Optionen importieren"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:334
+msgid "Submit"
+msgstr "Speichern"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:335
+msgid "An error occurred while uploading the import file."
+msgstr "Beim Uploaden der Import-Datei ist ein Fehler aufgetreten."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:336
+#, php-format
+msgid "The uploaded file type is not supported: %1$s"
+msgstr "Das Format der hochgeladenen Datei wird nicht unterstützt: %1$s"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:337
+msgid "Could not load the importing data."
+msgstr "Die importierten Daten konnten nicht geladen werden."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:338
+msgid "The uploaded file has been imported."
+msgstr "Die hochgeladene Datei wurde importiert."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:339
+msgid "No data could be imported."
+msgstr "Es konnten keine Daten importiert werden."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:340
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:341
+msgid "Use This Image"
+msgstr "Dieses Bild verwenden"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:342
+msgid "Insert from URL"
+msgstr "Von URL einfügen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:343
+msgid "Are you sure you want to reset the options?"
+msgstr "Einstellungen wirklich zurücksetzen?"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:344
+msgid "Please confirm your action."
+msgstr "Bitte Aktion bestätigen."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:345
+msgid "The specified options have been deleted."
+msgstr "Die angegebenen Optionen wurden gelöscht."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:346
+msgid "A problem occurred while processing the form data. Please try again."
+msgstr ""
+"Beim verarbeiten der Formulardaten ist ein Fehler Aufgetreten. Bitte erneut "
+"versuchen."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:347
+#, php-format
+msgid ""
+"Not all form fields could not be sent. Please check your server settings of "
+"PHP <code>max_input_vars</code> and consult the server administrator to "
+"increase the value. <code>max input vars</code>: %1$s. <code>$_POST</code> "
+"count: %2$s"
+msgstr ""
+"Es konnten nicht alle Formularfelder abgeschickt werden. Bitte überprüfe die "
+"Servereinstellungen: <code>max_input_vars</code> und kontaktiere den "
+"Administrator um den Wert zu erhöhen. <code>max input vars</code>: %1$s. "
+"<code>$_POST</code> wert: %2$s"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:348
+msgid "Is it okay to send the email?"
+msgstr "Kann das E-Mail verschickt werden?"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:349
+msgid "The email has been sent."
+msgstr "Das E-Mail wurde versendet."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:350
+msgid "The email has been scheduled."
+msgstr "Der E-Mail-Versandt wurde geplant."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:351
+msgid "There was a problem sending the email"
+msgstr "Es gab ein Problem beim Versenden des E-Mails"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:352
+msgid "Title"
+msgstr "Titel"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:353
+msgid "Author"
+msgstr "Autor"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:354
+msgid "Categories"
+msgstr "Kategorien"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:355
+msgid "Tags"
+msgstr "Tags"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:356
+msgid "Comments"
+msgstr "Kommentare"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:357
+msgid "Date"
+msgstr "Datum"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:358
+msgid "Show All"
+msgstr "Alle anzeigen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:359
+msgid "Show All Authors"
+msgstr "Alle Autoren anzeigen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:360
+msgid "Thank you for creating with"
+msgstr "Vielen dank für das Erstellen mit"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:361
+msgid "and"
+msgstr "und"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:362
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:363
+msgid "Manage"
+msgstr "Bearbeiten"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:364
+msgid "Select Image"
+msgstr "Bild auswählen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:365
+msgid "Upload File"
+msgstr "Datei hochladen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:366
+msgid "Use This File"
+msgstr "Diese Datei verwenden"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:367
+msgid "Select File"
+msgstr "Datei auswählen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:368
+msgid "Remove Value"
+msgstr "Wert entfernen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:369
+msgid "Select All"
+msgstr "Alle auswählen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:370
+msgid "Select None"
+msgstr "Keine auswählen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:371
+msgid "No term found."
+msgstr "Kein Term gefunden."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:372
+msgid "Select"
+msgstr "Auswählen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:373
+msgid "Insert"
+msgstr "Einfügen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:374
+msgid "Use This"
+msgstr "Verwenden"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:375
+msgid "Return to Library"
+msgstr "Zur Bibliothek zurückkehren"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:376
+#, php-format
+msgid "%1$s queries in %2$s seconds."
+msgstr "%1$s queries in %2$s Sekunden."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:377
+#, php-format
+msgid "%1$s out of %2$s MB (%3$s) memory used."
+msgstr "%1$s von%2$s MB (%3$s) Speicher verwendet."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:378
+#, php-format
+msgid "Peak memory usage %1$s MB."
+msgstr "Maximale Speichernutzung %1$s MB."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:379
+#, php-format
+msgid "Initial memory usage  %1$s MB."
+msgstr "Initiale Speichernutzung  %1$s MB."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:380
+msgid "The allowed maximum number of fields is {0}."
+msgstr "Die erlaubte Anzahl an Feldern ist {0}."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:381
+msgid "The allowed minimum number of fields is {0}."
+msgstr "Die erforderliche Anzahl an Feldern ist {0}."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:382
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:383
+msgid "Remove"
+msgstr "Entfernen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:384
+msgid "The allowed maximum number of sections is {0}"
+msgstr "Die erlaubte Anzahl an Bereichen ist {0}."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:385
+msgid "The allowed minimum number of sections is {0}"
+msgstr "Die erforderliche Anzahl an Bereichen ist {0}."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:386
+msgid "Add Section"
+msgstr "Bereich hinzufügen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:387
+msgid "Remove Section"
+msgstr "Bereich entfernen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:388
+msgid "Toggle All"
+msgstr "Alle umschalten"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:389
+msgid "Toggle all collapsible sections"
+msgstr "Alle einklappbaren Bereiche umschalten"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:390
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:391
+msgid "Yes"
+msgstr "Ja"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:392
+msgid "No"
+msgstr "Nein"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:393
+msgid "On"
+msgstr "Ein"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:394
+msgid "Off"
+msgstr "Aus"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:395
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:396
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:397
+msgid "Supported"
+msgstr "Unterstützt"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:398
+msgid "Not Supported"
+msgstr "Nicht unterstützt"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:399
+msgid "Functional"
+msgstr "Funktionell"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:400
+msgid "Not Functional"
+msgstr "Nicht funktionell"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:401
+msgid "Too Long"
+msgstr "Zu lang"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:402
+msgid "Acceptable"
+msgstr "Akzeptabel"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:403
+msgid "No log found."
+msgstr "Kein log gefunden."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:405
+#, php-format
+msgid "The method is called too early: %1$s"
+msgstr "Die Methode wird zu früh aufgerufen: %1$s"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:406
+msgid "Debug Info"
+msgstr "Debüt Informationen"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:408
+msgid "Click here to expand to view the contents."
+msgstr "Klicke hier um den Inhalt zu sehen."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:409
+msgid "Click here to collapse the contents."
+msgstr "Klicke hier um den Inhalt zu verbergen."
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:411
+msgid "Loading..."
+msgstr "Lädt…"
+
+#: development/factory/_abstract/_model/AdminPageFramework_Message.php:412
+msgid "Please enable JavaScript for better experience."
+msgstr "Für ein besseres Nutzererlebnis aktivere bitte JavaScript."
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:264
+msgid "No browser information found."
+msgstr "Keine Browser-Informationen gefunden."
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:328
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:525
+msgid "Version"
+msgstr "Version"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:329
+msgid "Language"
+msgstr "Sprache"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:330
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:527
+msgid "Memory Limit"
+msgstr "Speicherlimit"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:331
+msgid "Multi-site"
+msgstr "Netzwerk-Seite"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:332
+msgid "Permalink Structure"
+msgstr "Permalinkstruktur"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:333
+msgid "Active Theme"
+msgstr "Aktives Theme"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:334
+msgid "Registered Post Statuses"
+msgstr "Registrierte Post Stati"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:338
+msgid "Table Prefix"
+msgstr "Tabellenpräfix"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:339
+msgid "Table Prefix Length"
+msgstr "Tabellenpräfixlänge"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:340
+msgid "Table Prefix Status"
+msgstr "Tabellenpräfixstatus"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:343
+msgid "Multibite String Extension"
+msgstr "Multibite String Extension"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:344
+msgid "WP_CONTENT_DIR Writeable"
+msgstr "WP_CONTENT_DIR Writeable"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:345
+msgid "Active Plugins"
+msgstr "Aktivierte Plugins"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:346
+msgid "Network Active Plugins"
+msgstr "Netzwerkweit aktivierte Plugins"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:347
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:547
+msgid "Constants"
+msgstr "Konstanten"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:526
+msgid "Safe Mode"
+msgstr "Abgesicherter Modus"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:528
+msgid "Upload Max Size"
+msgstr "Maximale Uploadgröße"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:529
+msgid "Post Max Size"
+msgstr "Post Max Size"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:530
+msgid "Upload Max File Size"
+msgstr "Maximale Upload-Dateigröße"
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:531
+msgid "Max Execution Time"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:532
+msgid "Max Input Vars"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:533
+msgid "Argument Separator"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:534
+msgid "Allow URL File Open"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:535
+msgid "Display Errors"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:536
+msgid "Log Errors"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:537
+msgid "Error log location"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:538
+msgid "Error Reporting Level"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:539
+msgid "FSOCKOPEN"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:540
+msgid "cURL"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:541
+msgid "SOAP"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:542
+msgid "SUHOSIN"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:564
+msgid "Web Server"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:566
+msgid "Session"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:567
+msgid "Session Name"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:568
+msgid "Session Cookie Path"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:569
+msgid "Session Save Path"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:570
+msgid "Session Use Cookies"
+msgstr ""
+
+#: development/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:571
+msgid "Session Use Only Cookies"
+msgstr ""
